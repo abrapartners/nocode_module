@@ -5,6 +5,8 @@ app_description = "nocode"
 app_email = "ogunakar09@gmail.com"
 app_license = "mit"
 
+fixtures = ["Website Settings", "Web Page", "Web Template", "Website Theme"]
+
 # Apps
 # ------------------
 
