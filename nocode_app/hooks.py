@@ -7,6 +7,12 @@ app_license = "mit"
 
 fixtures = ["Website Settings", "Web Page", "Web Template", "Website Theme"]
 
+override_whitelisted_methods = {
+    'GET': [
+        'nocode_app.templates.base.html'
+    ]
+}
+
 # Apps
 # ------------------
 
