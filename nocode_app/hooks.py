@@ -5,11 +5,11 @@ app_description = "nocode"
 app_email = "ogunakar09@gmail.com"
 app_license = "mit"
 
-fixtures = ["Website Settings", "Web Page", "Web Template", "Website Theme"]
+# fixtures = ["Website Settings", "Web Page", "Web Template", "Website Theme"]
 
 override_whitelisted_methods = {
     'GET': [
-        'nocode_app.templates.base.html'
+        'nocode_app.templates.base.html',
     ]
 }
 
